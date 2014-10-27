@@ -12,7 +12,8 @@ resources: 1
 - By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 ## Instructions
-- Code your solution into the `lib/even_fibonacci.rb` file. 
+- Code your procedural solution into the `lib/even_fibonacci.rb` file.
+- Code your object-oriented solution into the `lib/oo_even_fibonacci.rb` file.
 - Run your `rspec` test suite, and make each RSpec test pass.
 
 ## Source
