@@ -1,5 +1,6 @@
 describe "#largest_palindrome_product" do
-  it 'returns the largest palindrome product of 2 3 digit numbers' do
-    expect(largest_palindrome_product).to eq(906609)
+  it 'returns the largest palindrome product of two 3-digit numbers' do
+    answer = LargestPalindromeProduct.new.answer
+    expect(encode(answer)).to eq(55d264f8671b50b5dbaffa56d1ee719fd429e8f4)
   end
 end
