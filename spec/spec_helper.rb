@@ -4,7 +4,7 @@ RSpec.configure do |config|
   # config here
 end
 
-def encode(answer)
+def encode_answer(answer)
   answer.class == Fixnum ? process_encoding(answer) : raise_error
 end
 
