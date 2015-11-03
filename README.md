@@ -1,8 +1,4 @@
----
-tags: euler, problems
-languages: ruby
-resources: 1
----
+
 # Project Euler
 
 ## Problem
@@ -26,7 +22,7 @@ Your objective is to find the largest palindrome made from the product of two th
 
 - Code your procedural solution into the `lib/largest_palindrome_product.rb` file.
 - Code your object-oriented solution into the `lib/oo_largest_palindrome_product.rb` file.
-- Run your `learn` test suite, and make each RSpec test pass.
+- Run `learn` until you get all of the RSpec tests to pass.
 
 ## Source
 
