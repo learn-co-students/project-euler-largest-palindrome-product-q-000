@@ -1,0 +1,21 @@
+
+[1mFrom:[0m /home/nitrous/code/labs/project-euler-largest-palindrome-product-q-000/lib/oo_largest_palindrome_product.rb @ line 15 LargestPalindromeProduct#answer:
+
+    [1;34m10[0m: [32mdef[0m [1;34manswer[0m()
+    [1;34m11[0m:   number_1 = [1;34m999[0m
+    [1;34m12[0m:   number_2 = [1;34m999[0m
+    [1;34m13[0m:   [32mwhile[0m (number_1>=[1;34m900[0m) [32mdo[0m
+    [1;34m14[0m:     product(number_1,number_2)
+ => [1;34m15[0m:     binding.pry
+    [1;34m16[0m:     [32mif[0m (is_palindrome?(product())==[1;36mtrue[0m)
+    [1;34m17[0m:       [32mreturn[0m product()
+    [1;34m18[0m:     [32mend[0m
+    [1;34m19[0m: 
+    [1;34m20[0m:     number_2 -= [1;34m1[0m
+    [1;34m21[0m:     [32mif[0m (number_2==(number_1-[1;34m99[0m))
+    [1;34m22[0m:       number_1 -= [1;34m1[0m
+    [1;34m23[0m:       number_2 = number_1
+    [1;34m24[0m:     [32mend[0m
+    [1;34m25[0m:   [32mend[0m
+    [1;34m26[0m: [32mend[0m
+
