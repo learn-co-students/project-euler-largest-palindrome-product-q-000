@@ -1,1 +1,5 @@
-# Implement your object-oriented solution here!
+class LargestPalindromeProduct
+  def answer
+    largest_palindrome_product
+  end
+end
