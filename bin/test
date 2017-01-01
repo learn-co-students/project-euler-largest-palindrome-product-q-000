@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/largest_palindrome_product'
+largest_palindrome_product
