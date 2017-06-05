@@ -1,8 +1,8 @@
 # Implement your object-oriented solution here!
 class LargestPalindromeProduct
 
-  def is_palindrome?(number)
-    number.to_s == number.to_s.reverse
+  def is_palindrome?(input)
+    input.to_s == input.to_s.reverse
   end
 
   def result
